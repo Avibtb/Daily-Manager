@@ -1,4 +1,25 @@
 # Daily-Manager
-In <b>Daily Manager app</b> we can add tasks, delete tasks also we can check incompleted tasks,completed tasks and number of tasks left to do.<br>
-**Technologies Used:** HTML, CSS, Javascript.<br>
 [**Visit Daily Manager App**](https://dailymanger.netlify.app/)<br><br>
+
+
+
+#### User can
+- Create a todo task.
+- Delete a todo task.
+- See the added todo tasks.
+- Complete a todo task.
+- Complete all todo task.
+- Delete completed todo tasks.
+- Filter todo tasks.
+- See the number of todo tasks.
+
+
+#### Technical Exposure
+- HTML
+- CSS
+- Vanilla JavaScript
+
+
+#### Screenshot
+
+![](./SS/With_task.png)
