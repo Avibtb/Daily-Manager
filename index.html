@@ -10,28 +10,28 @@
 </head>
 <body>
     <!--Main container-->
-    <div class="container">
+        <div class="container">
         <!--For input field-->
         <div class="input">
-            <input type="text" id="input-box" placeholder="Add a task">
-        </div>
+            <input type="text" id="input-box" placeholder="Add a task" />
+         </div>
         <!--For clearing all the task-->
-        <div id="all-task-details">
-            <img src="Assest/double-tick-indicator.svg" width="30px" alt="Double Tick">
-            <p id="clear-all-task">Clear All</p>
-        </div>
+         <div class="details-top">
+            <img src="Assest/double-tick-indicator.svg" width="30px" alt="" />
+            <p id="complete-task-top">Clear All</p>
+         </div>
         <!--For the task list-->
         <div class="content">
-            <ul id="item-list"></ul>
-        </div>
+            <ul id="list"></ul>
+         </div> 
         <!--For displaying differnt details-->
-        <div class="bottom-details" id="bottom-details-id">
+       <div class="details-bottom" id="details-bottom-id">
             <p id="all-task">All</p>
             <p id="incomplete-task">Incomplete</p>
             <p id="complete-task">Complete</p>
-            <p id="left-task">Task Left</p>
-        </div>
-    </div>
+            <p id="task-left">Task Left</p>
+         </div>
+      </div>
     <!--End of main container-->
     <script src="JS/script.js"></script>
     
