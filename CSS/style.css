@@ -1,0 +1,45 @@
+/*For body*/
+body {
+   padding: 0;
+   margin: 0;
+   background-color: rgba(0, 0, 0, 0.1);
+   font-family: "Titillium Web", sans-serif;
+   background: rgb(248, 248, 248);
+   background: radial-gradient(
+      circle,
+      rgb(255, 255, 255) 38%,
+      rgb(255, 255, 255) 100%
+   );
+}
+
+/*UI of main container */
+.container{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 1.5px solid black;
+}
+
+/*UI of input field  */
+.input{
+    position: relative;
+    width: auto;
+    height: 45px;
+    background-color: rgb(212,208,204);
+    padding: 10px;
+}
+.input input{
+    position: absolute;
+    left: 70px;
+    height: 45px;
+    width: 480px;
+    background-color: transparent;
+    border:none;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 2px solid dimgray;
+    border-radius:10px;
+}
+.input input:focus{
+    outline:none;
+}
