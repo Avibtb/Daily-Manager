@@ -1,5 +1,5 @@
 # Daily-Manager
-[**Visit Daily Manager App**](https://dailymanger.netlify.app/)<br><br>
+[**Visit Daily Manager App**](https://dailymanager.netlify.app/)<br><br>
 
 
 
