@@ -4,11 +4,11 @@ body {
    margin: 0;
    background-color: rgba(0, 0, 0, 0.1);
    font-family: "Titillium Web", sans-serif;
-   background: rgb(248, 248, 248);
+   background:#788187;
    background: radial-gradient(
       circle,
-      rgb(255, 255, 255) 38%,
-      rgb(255, 255, 255) 100%
+       #788187 38%,
+        #788187 100%
    );
 }
 
@@ -42,4 +42,114 @@ body {
 }
 .input input:focus{
     outline:none;
+}
+/*UI for all task list*/
+#all-task-details{
+    width: 600px;
+    height: 65px;
+    min-height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #3ee18f;
+    border-bottom: 1px solid black;
+}
+#all-task-details img{
+   margin-left: 5px;
+   margin-top: 15px;
+   height: 30px;
+}
+#all-task-details p{
+    cursor: pointer;
+    margin-left: 300px;
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+/*UI for content*/
+.content{
+    width: 600px;
+    height: 350px;
+    max-height: 350px;
+    background-color: #fff;
+    overflow: auto;
+}
+.content ul{
+    padding: 0;
+    margin: 0;
+}
+
+/*UI for item*/
+.item {
+   width: 600px;
+   height: 45px;
+   min-height: 45px;
+   position: relative;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.item img {
+   margin: 7px auto;
+   height: 30px;
+   cursor: pointer;
+   margin-left: 20px;
+}
+.item p {
+   padding: 0;
+   margin: 0;
+   font-size: 20px;
+   margin-left: 90px;
+   margin-right: 90px;
+   margin-top: 7px;
+   background-color: #fff;
+   max-width: 285px;
+}
+
+/*UI for other details*/
+.bottom-details{
+    width: 601px;
+   height: 45px;
+   color:rgb(15, 15, 15);
+   letter-spacing: 0.5px;
+   min-height: 45px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: #3ee18f;
+   border-bottom: 0px solid black;
+}
+.bottom-details p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/*UI for checked items*/
+.linethrough{
+    text-decoration: line-through;
+    color: #ccc;
+}
+.tick {
+   background-image: url("../assets/checked.svg");
+   width: 30px;
+   max-width: 10%;
+   border-radius: 50%;
+}
+.unTick {
+   background-image: url("../assets/untick.svg");
+   width: 30px;
+   max-width: 10%;
+   border-radius: 50%;
+}
+.text {
+   width: 80%;
+   overflow: scroll;
+}
+
+.text::-webkit-scrollbar {
+   display: none;
 }
